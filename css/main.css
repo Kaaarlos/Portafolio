@@ -1,0 +1,99 @@
+ body{
+    font-family: 'Monserrat' sans-serif;
+    overflow-x: hidden ;
+ }
+
+ #menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+ }
+
+ #menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ .carousel-inner{
+   max-height: 39rem;
+ }
+
+ @media(max-width: 576px){
+   .icon-wrap{
+      flex-wrap: wrap;
+      justify-content: center !important;
+   }
+ }
+
+ .mapa{
+   background: url(../img/mapa.png);
+   width:100%;
+   height: 500px;
+}
+
+#local{
+   background: f3f3f3;
+   padding-bottom: 300px;
+   display: flex;
+   justify-content: center;
+}
+
+.wrapper{
+   width: 50%;
+   margin-left: 100px;
+   padding-top: 150px;
+}
+
+/*eqipo gld*/
+#numeros-local div{
+   padding: 0 20px 0 0;
+   height: 48px;
+
+}
+
+#numeros-local div:not(:last-child){
+   border-right: 2px solid #3f3f3f ;
+}
+
+#numeros-local div:not(:first-child){
+   padding-left: 20px;
+}
+
+#numero-local p{
+   margin: 0;
+}
+
+#seccion-contacto{
+   background-color: #1b2a4e;
+   min-height: 500px;
+   position: relative;
+}
+
+@media(max-width:1200px){
+   #local{
+      flex-wrap: wrap;
+      padding-top :30px;
+   }  
+   .wrapper{
+      width:90%;
+      margin: auto;
+      padding-top: 50px;
+   }
+}
+
+
+@media (max-width:768px){
+   #intro, #equipo{
+      width: 90% !important;
+   }
+   #equipo p{
+      display: none ;
+   }
+   .servicio-fila{
+      width: 100% !important;
+      text-align: center;
+   }
+   #bg-contacto{
+      top:-110px;
+   }
+}
